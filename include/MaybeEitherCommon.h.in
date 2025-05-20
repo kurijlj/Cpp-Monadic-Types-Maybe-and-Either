@@ -1,0 +1,75 @@
+// ============================================================================
+// Provides project-wide definitions.
+//  Copyright (C) 2025 Ljubomir Kurij <ljubomir_kurij@protonmail.com>
+//
+// This file is part of Cpp-Monadic-Types.
+// 
+// Cpp-Monadic-Types is free software: you can redistribute it and/or modify it
+// under the terms of the GNU General Public License as published by the Free
+// Software  Foundation, either version 3 of the License, or (at your option)
+// any later version.
+// 
+// Cpp-Monadic-Types is distributed in the hope that it will be useful, but
+// WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+// FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+// more details.
+//
+// You should have received a copy of the GNU General Public License along with
+// Cpp-Monadic-Types. If not, see <https://www.gnu.org/licenses/>.
+//
+// ============================================================================
+
+
+// ============================================================================
+//
+// 2025-05-13 Ljubomir Kurij <ljubomir_kurij@protonmail.com>
+//
+// * MaybeEitherCommon.h: created.
+//
+// ============================================================================
+
+#pragma once
+
+// ============================================================================
+// Macro Definitions Section
+// ============================================================================
+
+#cmakedefine USE_DEBUG @USE_DEBUG@
+
+// ============================================================================
+// Headers include section
+// ============================================================================
+
+// Standard library headers
+#include <cstdlib>
+#include <iostream>
+#include <string>
+#include <string_view>
+
+// ============================================================================
+// Project Wide Global Constants Definition Section
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// Project Documentation Section
+// ----------------------------------------------------------------------------
+static constexpr std::string_view kYearString = "2025";
+static constexpr std::string_view kAuthorName = "Ljubomir Kurij";
+static constexpr std::string_view kAuthorEmail = "\
+ljubomir_kurij@protonmail.com";
+static constexpr std::string_view kCopyrightHolder = "Ljubomir Kurij";
+static constexpr std::string_view kLicense = "\
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\
+This is free software: you are free to change and redistribute it.\n\
+There is NO WARRANTY, to the extent permitted by law.\n";
+
+// ----------------------------------------------------------------------------
+// CLI Options Documentation Section
+// ----------------------------------------------------------------------------
+static constexpr std::string_view kHelpOptionDoc = "\
+show this help message and exit";
+static constexpr std::string_view kUsageOptionDoc = "\
+give a short usage message";
+static constexpr std::string_view kVersionOptionDoc = "print program version";
+
+// End of 'MaybeEitherCommon.h'
