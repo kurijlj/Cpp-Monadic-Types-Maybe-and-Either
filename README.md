@@ -16,6 +16,7 @@ less error-prone code by explicitly handling the presence or absence of values
 traditional error codes, null pointers, or exceptions for control flow.
 
 The implementations include:
+
 * **`Maybe<T>`**: A type that represents an optional value,
 akin to `std::optional<T>`.
 * **`Either<T, Err>`**: A type that represents a value that is either a success
@@ -40,18 +41,20 @@ portable build system.
 
 ## 🧩 Third-party Library Integration
 
-- **[clipp](https://github.com/muellan/clipp):** The framework assumes clipp as
+* **[clipp](https://github.com/muellan/clipp):** The framework assumes clipp as
   a header-only library. Steps on how to link to the library are described in
   the top-level CMakeLists.txt file.
-- **[GoogleTest](https://github.com/google/googletest):** The project integrates
+* **[GoogleTest](https://github.com/google/googletest):** The project integrates
   GoogleTest using the FetchContent module. The test target is added
   to the project in the CMakeLists.txt file.
 
 ## ⚙️ Usage Instructions
+
 To integrate Maybe and Either into your own C++ projects, simply copy the header
 files:
-- `Maybe.h`
-- `Either.h`
+
+* `Maybe.h`
+* `Either.h`
 
 ... into your project's source tree or an include directory. Since these are
 header-only libraries, no separate compilation or linking is required beyond
@@ -70,29 +73,39 @@ project on your system:
 
 ### Steps
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework
-    cd your-repo
-    ```
-2.  **Create a build directory:**
-    It's good practice to build outside of the source tree.
-    ```bash
-    mkdir build
-    cd build
-    ```
-3.  **Configure CMake:**
-    ```bash
-    cmake ..
-    ```
-    *(Optional: If you want to specify a generator, e.g., for Ninja:* `cmake -G Ninja ..`
-    *or you want to build the tests:*`-DBUILD_TESTS:BOOL=ON`*)*
-4.  **Build the project:**
-    ```bash
-    cmake --build .
-    ```
-    This will compile the `Maybe` and `Either` libraries, their unit tests, and
-		the demo application.
+**1. Clone the repository:**
+
+```bash
+git clone https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework
+cd your-repo
+```
+
+**2. Create a build directory:**
+
+It's good practice to build outside of the source tree.
+
+```bash
+mkdir build
+cd build
+```
+
+**3. Configure CMake:**
+
+  ```bash
+  cmake ..
+  ```
+
+*(Optional: If you want to specify a generator, e.g., for Ninja:* `cmake -G Ninja ..`
+*or you want to build the tests:*`-DBUILD_TESTS:BOOL=ON`*)*
+
+**4. Build the project:**
+
+```bash
+cmake --build .
+```
+
+This will compile the `Maybe` and `Either` libraries, their unit tests, and
+the demo application.
 
 ## 🧪 Running Tests
 
@@ -108,26 +121,31 @@ ctest --verbose
 ```
 
 ### 💡 Demo Application
+
 A demo application is included to showcase the usage of Maybe and Either,
 particularly demonstrating how ExpensiveToCopy objects are handled efficiently
 through move semantics.
 
 To run the demo:
+
 ```bash
 cd build
 ./bin/maybe_either_demo.exe
 ```
 
 ## 🤝 Contributing
+
 Contributions are welcome! Please feel free to open issues, submit pull
 requests, or suggest improvements.
 
 ## 📄 License
+
 This repository is licensed under the [GNU General Public License
 v3.0](LICENSE), ensuring that the code remains open-source and accessible to the
 community.
 
 ## 📧 Contact
-Ljubomir Kurij - ljubomir_kurij@protonmail.com
 
-Project Link: https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework
+Ljubomir Kurij - <ljubomir_kurij@protonmail.com>
+
+Project Link: <https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework>
