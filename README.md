@@ -1,8 +1,8 @@
 # C++ Monadic Types: Maybe and Either
 
-![GitHub License](https://img.shields.io/github/license/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework)
-[![GitHub Super-Linter](https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework/actions/workflows/code-syntax-style-check.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework/cmake-multi-platform.yml?branch=main&event=push&style=flat&logo=cmake&label=CMake%20build&labelColor=%23064F8C)
+![GitHub License](https://img.shields.io/github/license/kurijlj/Cpp-Monadic-Types-Maybe-and-Either)
+[![GitHub Super-Linter](https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either/actions/workflows/code-syntax-style-check.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kurijlj/Cpp-Monadic-Types-Maybe-and-Either/cmake-multi-platform.yml?branch=main&event=push&style=flat&logo=cmake&label=CMake%20build&labelColor=%23064F8C)
 ![Static Badge](https://img.shields.io/badge/-v17-%23ffffff?style=flat&logo=cplusplus&labelColor=%2300599C)
 ![Static Badge](https://img.shields.io/badge/-3.14-%23ffffff?style=flat&logo=cmake&labelColor=%23064F8C)
 
