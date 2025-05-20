@@ -148,4 +148,4 @@ community.
 
 Ljubomir Kurij - <ljubomir_kurij@protonmail.com>
 
-Project Link: <https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either-CLI-Framework>
+Project Link: <https://github.com/kurijlj/Cpp-Monadic-Types-Maybe-and-Either>
